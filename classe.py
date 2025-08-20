@@ -1,5 +1,5 @@
 class Contato:  
-  def__init__(self, nome, email):
+  def __init__(self, nome, email):
     self.nome = nome 
     self.email = email 
 
