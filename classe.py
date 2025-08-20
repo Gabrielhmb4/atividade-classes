@@ -13,5 +13,5 @@ class Contato:
       return {"nome": self.nome, "email": self.email} 
 
 
-    delf __str__(self):
+    def __str__(self):
       return f"{self.nome} ({self.email})"
